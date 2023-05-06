@@ -13,75 +13,102 @@
 
 <body>
     <div class="container-fluid p-0 m-0 w-100">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">Gabriel Sesta || WEB DEVELOPER</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../cv/">Curriculum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../portfolio/">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contatti</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div class="row mt-5 pt-2 m-0 w-100">
-            <div class="col col-5 p-0 text-center">
-                <h3 class="slogan-title p-5">Competenza e professionalità <br> al tuo servizio</h3>
-                <p class="slogan-text p-3">Con una forte attitudine alla gestione e al completamento dei progetti, sono un professionista
-                    altamente qualificato nel campo delle tecnologie aggiornate. Con il mio approccio commerciale, posso
-                    garantire la piena soddisfazione dei clienti e risultati duraturi nel tempo. Il mio obiettivo è
-                    sempre quello di rimanere al passo con le ultime tendenze e tecnologie, e di utilizzare queste
-                    conoscenze per fornire soluzioni innovative e efficaci. Grazie alla mia esperienza e alla mia
-                    dedizione al lavoro, posso fornire un servizio di alta qualità che soddisferà le esigenze dei
-                    clienti più esigenti.</p>
-                
-                    <div class="card m-3" style="width: 18rem;">
-                        <form class="form-horizontal needs-validation" id="contact-form" method="post"
-                            novalidate>
-                            <div class="form-group">
-                                <div class="mb-3">
-                                    <label for="Email1" class="form-label">Email:</label>
-                                    <input type="email" class="form-control" name="email" id="Email1" placeholder="name@example.com"
-                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="messaggio" class="form-label">Messaggio:</label>
-                                    <textarea class="form-control" name="messaggio" id="messaggio" rows="3" required></textarea>
-                                </div>
-                                <div class="invalid-feedback">
-                                </div>
-                            </div><button class="btn btn-primary m-2" type="submit">Submit form</button>
-                        </form>
+        <header">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">Gabriel Sesta || WEB DEVELOPER</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../cv/">Curriculum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../portfolio/">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Contatti</a>
+                            </li>
+                        </ul>
                     </div>
-            </div>
-            <div class="col col-7 p-0 d-flex justify-content-center">
-                <img src="./assets/img/image.png" alt="" class="img-fluid main-image">
-            </div>
-        </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+                <div class="row mt-5 pt-2 m-0 w-100">
+                    <div class="col col-5 p-0 text-center">
+                        <h3 class="slogan-title p-5">Competenza e professionalità <br> al tuo servizio</h3>
+                        <p class="slogan-text p-3">Con una forte attitudine alla gestione e al completamento dei
+                            progetti,
+                            sono
+                            un professionista
+                            altamente qualificato nel campo delle tecnologie aggiornate. Con il mio approccio
+                            commerciale,
+                            posso
+                            garantire la piena soddisfazione dei clienti e risultati duraturi nel tempo. Il mio
+                            obiettivo è
+                            sempre quello di rimanere al passo con le ultime tendenze e tecnologie, e di utilizzare
+                            queste
+                            conoscenze per fornire soluzioni innovative e efficaci. Grazie alla mia esperienza e alla
+                            mia
+                            dedizione al lavoro, posso fornire un servizio di alta qualità che soddisferà le esigenze
+                            dei
+                            clienti più esigenti.</p>
+
+                        <div class="card m-3" style="width: 18rem;">
+                            <form class="form-horizontal needs-validation" id="contact-form" method="post" novalidate>
+                                <div class="form-group">
+                                    <div class="mb-3">
+                                        <label for="Email1" class="form-label">Email:</label>
+                                        <input type="email" class="form-control" name="email" id="Email1"
+                                            placeholder="name@example.com"
+                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="messaggio" class="form-label">Messaggio:</label>
+                                        <textarea class="form-control" name="messaggio" id="messaggio" rows="3"
+                                            required></textarea>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div><button class="btn btn-primary m-2" type="submit">Invia</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col col-7 p-0 d-flex justify-content-center">
+                        <img src="./assets/img/image.png" alt="" class="img-fluid main-image">
+                    </div>
+                </div>
+        </main>
+
+        <footer>
+                <div class="container-fluid bg-dark py-1 m-0">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p class="text-white m-0">&copy; 2023 Gabriel Sesta</p>
+                            <ul class="list-inline m-0">
+                                <li class="list-inline-item"><a class="nav-link" href="#">Privacy Policy</a></li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">Cookie Policy</a></li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">Termini e Condizioni</a></li>
+                            </ul>
+                            <p class="text-white m-0">Contattami: <a
+                                    href="mailto:gabrielsesta3@gmail.com">gabrielsesta3@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("FT9ZYNHp3peaBCHrE");
-        })();
-    </script>
     <script src="./assets/js/email.js"></script>
 </body>
 
