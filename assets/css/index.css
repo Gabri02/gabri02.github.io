@@ -13,9 +13,27 @@
 }
 
 #messaggio {
+  min-height: 15vh;
   max-height: 30vh;
 }
 
 .image-col {
   background-color: lavender;
+}
+
+@media (max-width: 575.98px) {
+  .first-row {
+    margin-top: 10vh !important;
+  }
+  h3 {
+    padding-top: 3vh !important;
+  }
+  .image-col {
+    height: 15vh;
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    padding-top: 3rem !important;
+  }
 }

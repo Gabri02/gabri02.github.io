@@ -43,10 +43,10 @@
         </header>
 
         <main>
-            <div class="row mt-3 pt-2 m-0 w-100">
+            <div class="row mt-3 pt-2 m-0 w-100 first-row">
                 <div class="col-8 col-xl-5 p-0 text-center">
-                    <h3 class="slogan-title px-5 pt-5">Competenza e professionalità <br> al tuo servizio</h3>
-                    <p class="slogan-text p-3 mb-5">Con una forte attitudine alla gestione e al completamento dei
+                    <h3 class="slogan-title px-5">Competenza e professionalità <br> al tuo servizio</h3>
+                    <p class="slogan-text p-3 mb-5 d-none d-xl-block">Con una forte attitudine alla gestione e al completamento dei
                         progetti,
                         sono
                         un professionista
@@ -59,14 +59,64 @@
                         dedizione al lavoro, posso fornire un servizio di alta qualità che soddisferà le esigenze
                         dei
                         clienti più esigenti.</p>
+                    <div class="d-none d-xl-block">
+                        <h4 class="pt-5">Contattami</h4>
+                        <p class="mb-5">Compila il form di contatto qui sotto per inviarmi un messaggio. Ti risponderò
+                            il
+                            prima
+                            possibile. I tuoi dati saranno trattati nel rispetto della privacy e non verranno utilizzati
+                            per
+                            altri scopi.</p>
 
-                    <h4 class="pt-5">Contattami</h4>
-                    <p class="mb-5">Compila il form di contatto qui sotto per inviarmi un messaggio. Ti risponderò il
+                        <div class="card m-3">
+                            <form class="form-horizontal needs-validation" id="contact-form" method="post" novalidate>
+                                <div class="form-group">
+                                    <div class="mb-3">
+                                        <label for="Email1" class="form-label">Email:</label>
+                                        <input type="email" class="form-control" name="email" id="Email1"
+                                            placeholder="name@example.com"
+                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="messaggio" class="form-label">Messaggio:</label>
+                                        <textarea class="form-control" name="messaggio" id="messaggio" rows="3"
+                                            required></textarea>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div><button class="btn btn-primary m-2" type="submit">Invia</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xl-7 p-0 d-flex justify-content-center image-col">
+                    <img src="./assets/img/image.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row d-block d-xl-none m-0 w-100">
+                <p class="slogan-text p-3">Con una forte attitudine alla gestione e al completamento dei
+                    progetti,
+                    sono
+                    un professionista
+                    qualificato nel campo delle web technologies. Il mio
+                    obiettivo è
+                    quello di rimanere al passo con le ultime tendenze e tecnologie, e di utilizzare
+                    queste
+                    conoscenze per fornire soluzioni innovative e efficaci. Grazie alla mia esperienza e alla
+                    mia
+                    dedizione al lavoro, posso fornire un servizio di alta qualità che soddisferà le esigenze
+                    dei
+                    clienti più esigenti.</p>
+            </div>
+            <div class="row m-0 d-xl-none w-100 d-flex justify-content-center">
+                <div class="col-12 text-center d-flex flex-column align-items-center">
+                    <h4>Contattami</h4>
+                    <p>Compila il form di contatto qui sotto per inviarmi un messaggio. Ti risponderò il
                         prima
                         possibile. I tuoi dati saranno trattati nel rispetto della privacy e non verranno utilizzati per
                         altri scopi.</p>
 
-                    <div class="card m-3">
+                    <div class="card mb-3" style="width: 19rem;">
                         <form class="form-horizontal needs-validation" id="contact-form" method="post" novalidate>
                             <div class="form-group">
                                 <div class="mb-3">
@@ -86,12 +136,7 @@
                         </form>
                     </div>
                 </div>
-
-                <div class="col-4 col-xl-7 p-0 d-flex justify-content-center image-col">
-                    <img src="./assets/img/image.png" alt="" class="img-fluid">
-                </div>
             </div>
-
     </div>
     </main>
 

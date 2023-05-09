@@ -1,3 +1,6 @@
+$xs-max: 575.98px
+$xl-min: 1200px
+
 .slogan-title
   font-family: 'Roboto Bold', sans-serif
   font-weight: 500
@@ -10,4 +13,15 @@
   min-height: 15vh
   max-height: 30vh
 .image-col
-  background-color: lavender 
+  background-color: lavender
+
+@media (max-width: $xs-max)
+  .first-row
+    margin-top: 10vh !important
+  h3
+    padding-top: 3vh !important
+  .image-col
+    height: 15vh
+@media (min-width: $xl-min)
+  h3
+    padding-top: 3rem !important
