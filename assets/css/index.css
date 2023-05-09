@@ -11,3 +11,11 @@
 .card {
   background-color: #fff3cd;
 }
+
+#messaggio {
+  max-height: 30vh;
+}
+
+.image-col {
+  background-color: lavender;
+}
