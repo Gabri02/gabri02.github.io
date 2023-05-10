@@ -1,4 +1,5 @@
 $xs-max: 575.98px
+$md-min: 576px
 $xl-min: 1200px
 
 .slogan-title
@@ -22,6 +23,16 @@ $xl-min: 1200px
     padding-top: 3vh !important
   .image-col
     height: 15vh
+@media (min-width: $md-min)
+  .first-row
+    padding-top: 2.5rem!important
+  .mobile-col
+    display: flex
+    text-align: center
+    align-items: center
+  .mobile-row
+    padding-bottom: 3rem!important
+    margin-bottom: 6.5rem!important
 @media (min-width: $xl-min)
   h3
     padding-top: 3rem !important
