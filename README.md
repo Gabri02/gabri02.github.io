@@ -1,5 +1,4 @@
 # gabri02.github.io
-Gabri02.github.io
 Welcome to the Gabri02.github.io repository! This repository contains the source code and content of my personal website.
 
 Description
