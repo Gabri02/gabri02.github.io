@@ -24,4 +24,4 @@ Email: gabrielsesta3@gmail.com
 Thank you for visiting my repository! I hope you find my website interesting and informative.
 
 License
-This repository is licensed under the Creative Commons License license. Please make sure to carefully read the terms of the license before using or modifying the code in this repository.
+This repository is licensed under the CC BY-SA 4.0 license. Please make sure to carefully read the terms of the license before using or modifying the code in this repository.
