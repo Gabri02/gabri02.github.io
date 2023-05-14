@@ -8,7 +8,7 @@ document.getElementById('contact-form2').addEventListener('submit', function (ev
     return;
   }
 
-  emailjs.send("service_y6fyboq", "template_fd54yeu", {
+  emailjs.send("service_y6fyboq", "template_wtd81hx", {
     Email2: document.getElementById('Email2').value,
     messaggio2: document.getElementById('messaggio2').value,
   }).then(function (response) {
