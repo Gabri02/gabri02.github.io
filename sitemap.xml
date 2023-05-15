@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gabri02.github.io/</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://gabri02.github.io/PRIVACY_POLICY.html</loc>
+    <lastmod>2023-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://gabri02.github.io/portfolio/</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gabri02.github.io/contatti/</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gabri02.github.io/COOKIE_POLICY.html</loc>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gabri02.github.io/LICENSE.html</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gabri02.github.io/cv/</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gabri02.github.io/index.html</loc>
-    <lastmod>2023-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gabri02.github.io/assets/pdf/Gabriel%20Sesta%20CV.pdf</loc>
-    <lastmod>2023-05-14</lastmod>
+    <lastmod>2023-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
