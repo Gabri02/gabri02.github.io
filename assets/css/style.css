@@ -28,6 +28,10 @@ body {
   color: #fff;
 }
 
+.navbar-brand {
+	font-size: 4vw;
+}
+
 .list-inline-item > .nav-link {
   text-decoration: underline;
 }
