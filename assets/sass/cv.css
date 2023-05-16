@@ -1,0 +1,35 @@
+.background {
+  background-color: lavender;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: #354b7c;
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .background {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-top: 1rem !important;
+  }
+  .overlay-button {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #354b7c;
+    color: #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .my-offset-1 {
+    margin-left: 8.33333333%;
+  }
+}/*# sourceMappingURL=cv.css.map */

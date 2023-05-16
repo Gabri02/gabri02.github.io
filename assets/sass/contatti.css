@@ -1,0 +1,29 @@
+.background {
+  background-color: lavender;
+}
+
+.card {
+  background-color: #fff3cd;
+}
+
+@media (max-width: 575.98px) {
+  .mobile-col-1 {
+    padding-top: 6vh !important;
+    padding-bottom: 2vh !important;
+  }
+  .mobile-col-2 {
+    padding-bottom: 4vh;
+  }
+}
+@media (min-width: 576px) {
+  .mobile-col {
+    padding-top: 3vh;
+  }
+  .row-md {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  .mobile-col-2 {
+    padding-bottom: 18vh;
+  }
+}/*# sourceMappingURL=contatti.css.map */

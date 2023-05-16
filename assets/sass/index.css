@@ -1,0 +1,55 @@
+.slogan-title {
+  font-family: "Roboto Bold", sans-serif;
+  font-weight: 500;
+}
+
+.slogan-text {
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 300;
+}
+
+.card {
+  background-color: #fff3cd;
+}
+
+#messaggio {
+  min-height: 15vh;
+  max-height: 30vh;
+}
+
+.image-col {
+  background-color: lavender;
+}
+
+@media (max-width: 575.98px) {
+  .first-row {
+    margin-top: 11vh !important;
+  }
+  h3 {
+    padding-top: 3vh !important;
+  }
+  .image-col {
+    height: 15vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  .first-row {
+    padding-top: 2.5rem !important;
+  }
+  .mobile-col {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .mobile-row {
+    padding-bottom: 3rem !important;
+    margin-bottom: 6.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    padding-top: 3rem !important;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}/*# sourceMappingURL=index.css.map */
