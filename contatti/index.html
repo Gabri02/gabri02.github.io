@@ -58,76 +58,42 @@
     </header>
 
     <main>
-      <div class="row mt-5 pt-2 m-0 w-100 justify-content-center">
-        <div class="col col-11 bg-white pb-4 mobile-col-1">
-          <h1 class="text-center">I miei contatti</h1>
-        </div>
-      </div>
-      <div class="row w-100 m-0 justify-content-center">
-        <div class="col-xl-6 col-11 p-3 pt-1 bg-white mobile-col-2">
-          <div class="row-md w-100 m-0 justify-content-center">
-            <h2 class="text-center">Informazioni di contatto</h2>
-            <ul>
-              <li>Email: <a href="mailto:gabrielsesta3@gmail.com">gabrielsesta3@gmail.com</a></li>
-              <li>Telefono: <a href="tel:+39123456789">+39 392 825 5034</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-xl-5 col-11 p-3 pt-1 bg-white">
-          <div class="row-md w-100 m-0 justify-content-center pt-5 pb-5">
-            <h2 class="text-center">Social Media</h2>
-            <ul class="list-inline d-flex justify-content-center">
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/gabriel_sesta/" target="_blank">
-                  <i class="fab fa-instagram"></i> Instagram
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/gabriel.sesta.1/" target="_blank">
-                  <i class="fab fa-facebook"></i> Facebook
-                </a>
-              </li>
-            </ul>
-            <ul class="list-inline d-flex justify-content-center">
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/gabriel-sesta-b113721b6/" target="_blank">
-                  <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/Gabri02" target="_blank">
-                  <i class="fab fa-github"></i> GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row w-100 m-0 justify-content-center">
-        <div class="col col-11 justify-content-center d-flex text-center bg-white mobile-col-2">
-          <div class="card m-3" style="width: 35rem;">
-            <form class="form-horizontal needs-validation" id="contact-form" method="post" novalidate>
-              <div class="form-group">
-                <div class="mb-3">
-                  <label for="Email1" class="form-label">Email:</label>
-                  <input type="email" class="form-control" name="email1" id="Email1" placeholder="name@example.com"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                </div>
-                <div class="mb-3">
-                  <label for="messaggio" class="form-label">Messaggio:</label>
-                  <textarea class="form-control" name="messaggio" id="messaggio" rows="3" required></textarea>
-                </div>
-                <div class="invalid-feedback">
-                </div>
-              </div><button class="btn btn-primary m-2" type="submit">Invia</button>
-            </form>
+      <div class="row mt-5 pt-2 m-0 w-100 first-row justify-content-center">
+        <div class="col col-10 bg-white d-flex flex-column">
+          <h1 class="text-center pb-3">I miei contatti</h1>
+          <h2 class="text-center pb-2">Informazioni di contatto</h2>
+          <ul class="pt-3" style="list-style: none;">
+            <li class="text-center">
+              <p>Email: <a href="mailto:gabrielsesta3@gmail.com">gabrielsesta3@gmail.com</a></p>
+            </li>
+            <li class="mt-5 text-center">
+              <p>Telefono: <a href="tel:+39123456789">+39 392 825 5034</a></p>
+            </li>
+          </ul>
+          <div class="mt-2 d-flex justify-content-center">
+            <div class="card p-3 mb-3" style="width: 27rem;">
+              <form class="form-horizontal needs-validation" id="contact-form" method="post" novalidate>
+                <div class="form-group">
+                  <div class="mb-3">
+                    <label for="Email1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" name="email1" id="Email1" placeholder="name@example.com"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="messaggio" class="form-label">Messaggio:</label>
+                    <textarea class="form-control" name="messaggio" id="messaggio" rows="3" required></textarea>
+                  </div>
+                  <div class="invalid-feedback">
+                  </div>
+                </div><button class="btn btn-primary m-2" type="submit">Invia</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="mt-auto">
+    <footer class="">
       <div class="container-fluid bg-dark py-1 m-0">
         <div class="row">
           <div class="col-4 px-1">

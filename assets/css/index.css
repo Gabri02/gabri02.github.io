@@ -1,8 +1,8 @@
 .slogan-title {
   font-family: "Roboto Bold", sans-serif;
   font-weight: 500;
+  font-size: calc(1.3rem + 0.6vw);
 }
-
 .slogan-text {
   font-family: "Roboto Light", sans-serif;
   font-weight: 300;
@@ -19,6 +19,13 @@
 
 .image-col {
   background-color: lavender;
+  }
+
+.image-col img{
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  object-position: 37%;
 }
 
 @media (max-width: 575.98px) {
